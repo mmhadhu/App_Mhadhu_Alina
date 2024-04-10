@@ -30,5 +30,8 @@ Mathematik
 ## Das sind meine Ziele
 An die Olympiade 
 
+git add Persona.md
+git commit -m "Added Persona.md with persona information"
+git push origin main
 
 
