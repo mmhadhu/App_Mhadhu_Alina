@@ -19,7 +19,7 @@ Portugal, Porto
 drei Karten Monty
 
 ## Ein typischer Tag
-Aufstehen, in die Schule, Nachhause gehen, ins Training, Schlafen gehen
+Aufstehen, in die Schule, Nachhause gehen, lernen, ins Training, Schlafen gehen
 
 ## Meine Lieblings-App
 Instagram
