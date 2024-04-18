@@ -3,20 +3,11 @@
 ## Name
 Jamie Doyle
 
-## Haarfarbe
-Braun
-
-## Grösse
-182cm 
-
 ## Alter
 21
 
-## Mein nächser Urlaub
-Portugal, Porto
-
-## Das ist ein Trick von mir
-drei Karten Monty
+## Beruf
+Student
 
 ## Ein typischer Tag
 Aufstehen, in die Schule, Nachhause gehen, lernen, ins Training, Schlafen gehen
@@ -24,11 +15,21 @@ Aufstehen, in die Schule, Nachhause gehen, lernen, ins Training, Schlafen gehen
 ## Meine Lieblings-App
 Instagram
 
+## Technische Affinität
+Verwendet täglich Smartphone und Laptop
+
 ## Das ist mein Problem
-Mathematik
+Mathematik, Strukturieren von Aufgaben und To-do's, Organisieren von Stundienalltag
 
 ## Das sind meine Ziele
-An die Olympiade 
+Das Studium bestehen
+
+## Motivation und Bedürfnisse
+unterstützende und motivierende App
+Gefühl von Zufriedenheit nach erreichen der Aufgaben
+
+## Umfeld und Kontext
+An der Schule, Zuhause und allen anderen Lernorte
 
 git add Persona.md
 git commit -m "Added Persona.md with persona information"
