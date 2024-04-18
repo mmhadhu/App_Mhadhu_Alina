@@ -1,10 +1,4 @@
-Hypothesen und Bewertungen
-
-Was war gut?
-
-Was war schlecht?
-
-Neue Ideen?
-
-Probleme?
+**Hypothesen und Bewertungen**
+Benutzerfreunlichkei und Übersicht: 
+Der Benutzer
 
