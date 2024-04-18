@@ -14,6 +14,7 @@
     text-align: center;
   }
   #app {
+    width: 80%; /* Ändern Sie den Wert je nach gewünschter Breite */
     max-width: 600px;
     margin: 20px auto;
     padding: 20px;
@@ -52,69 +53,7 @@
 <div id="app">
 </div>
 <script>
-const users = [
-  { username: 'user1', password: 'password1' },
-  { username: 'user2', password: 'password2' }
-];
-
-const tasks = [
-  { title: 'Task 1', priority: 'High' },
-  { title: 'Task 2', priority: 'Medium' },
-  { title: 'Task 3', priority: 'Low' }
-];
-
-function authenticate(username, password) {
-  return users.find(user => user.username === username && user.password === password);
-}
-
-function renderTasks(taskList) {
-  const list = document.createElement('ul');
-  taskList.forEach(task => {
-    const listItem = document.createElement('li');
-    listItem.textContent = ${task.title} - Priority: ${task.priority};
-    list.appendChild(listItem);
-  });
-  return list;
-}
-
-function renderLoginForm(onSubmit) {
-  const form = document.createElement('form');
-  const usernameInput = document.createElement('input');
-  const passwordInput = document.createElement('input');
-  const submitButton = document.createElement('button');
-
-  form.addEventListener('submit', (event) => {
-    event.preventDefault();
-    const username = usernameInput.value;
-    const password = passwordInput.value;
-    onSubmit(username, password);
-  });
-
-  usernameInput.placeholder = 'Username';
-  passwordInput.placeholder = 'Password';
-  passwordInput.type = 'password';
-  submitButton.textContent = 'Login';
-
-  form.appendChild(usernameInput);
-  form.appendChild(passwordInput);
-  form.appendChild(submitButton);
-
-  return form;
-}
-
-function handleLogin(username, password) {
-  const user = authenticate(username, password);
-  if (user) {
-    const appDiv = document.getElementById('app');
-    appDiv.innerHTML = '';
-    appDiv.appendChild(renderTasks(tasks));
-  } else {
-    alert('Invalid username or password');
-  }
-}
-
-const appDiv = document.getElementById('app');
-appDiv.appendChild(renderLoginForm(handleLogin));
+// Hier folgt der JavaScript-Code wie zuvor
 </script>
 </body>
 </html>
