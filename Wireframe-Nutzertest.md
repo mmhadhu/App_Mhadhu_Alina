@@ -13,3 +13,6 @@ Soll klare Kategorien mit farblicher Hervorhebung haben und die einzelnen Aufgab
 
 
 **Test-Raster**
+![Test-Raster](https://github.com/alinaaval/App_Mhadhu_Alina-1/assets/162150437/d4805313-2f31-47f9-bdbb-bae5ca3eeec1)
+
+
