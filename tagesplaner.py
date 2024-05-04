@@ -80,7 +80,9 @@ def app():
                 st.error("Invalid username or password")
         if st.button("Register"):
             if add_user(username, password):
-                st.success("User registered. You can now login.")
+                st.session_state['logged_in'] = True
+                st.session_state['username'] = username
+                st.success("Registration successful. You are now logged in.")
             else:
                 st.error("Username already taken")
     else:
