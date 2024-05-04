@@ -88,7 +88,6 @@ def app():
         st.write("Events:")
         st.dataframe(events)
 
-streamlit run tagesplaner.py
-
-# Note: Uncomment the following line to run this script directly in your local environment.
-# app()
+# Entry point of the Streamlit app
+if __name__ == "__main__":
+    app()
